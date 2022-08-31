@@ -3,7 +3,7 @@ import "./style/Ultility.css";
 
 function Header() {
   return (
-    <header className="navbar navbar-expand-lg bg-dark">
+    <header className="navbar navbar-expand-lg bg-dark navbar-dark">
       <div className="container">
         <a className="navbar-brand" href="/">
           <img
