@@ -54,6 +54,12 @@ header .nav-item a:hover {
   color: #009999;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
 
 .navbar-toggler-icon {
   color: #fff !important;

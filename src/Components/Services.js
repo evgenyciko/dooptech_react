@@ -16,13 +16,31 @@ function Services() {
         <div className="services-content">
             <div className="services-card-wraper">
                 <div className="services-card">
-                    test
+                    <div className="services-icon">
+                        <img src="images/content/services-card1.svg" alt="" className="" height="32" width="32"></img>
+                    </div>
+                    <div className="services-card-title">
+                        <h1>Blog</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    </div>
                 </div>
                 <div className="services-card">
-                    test
+                <div className="services-icon">
+                        <img src="images/content/services-card2.svg" alt="" className="" height="32" width="32"></img>
+                    </div>
+                    <div className="services-card-title">
+                        <h1>Learning</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    </div>
                 </div>
                 <div className="services-card">
-                    test
+                <div className="services-icon">
+                        <img src="images/content/services-card3.svg" alt="" className="" height="32" width="32"></img>
+                    </div>
+                    <div className="services-card-title">
+                        <h1>Community</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    </div>                   
                 </div>
             </div>
         </div>
