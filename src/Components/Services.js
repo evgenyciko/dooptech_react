@@ -17,7 +17,7 @@ function Services() {
             <div className="services-card-wraper">
                 <div className="services-card">
                     <div className="services-icon">
-                        <img src="images/content/services-card1.svg" alt="" className="" height="32" width="32"></img>
+                        <img src="images/content/services-card1.svg" alt="" className=""></img>
                     </div>
                     <div className="services-card-title">
                         <h1>Blog</h1>
