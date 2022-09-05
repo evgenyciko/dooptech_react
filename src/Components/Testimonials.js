@@ -43,10 +43,10 @@ function Testimonials() {
             <div className="carousel-item active test">
               <div className="carousel-1">
                 <div className="carousel-img">
-                  <img src="images/content/carousel-ava.png" alt="" />
+                  <img src="images/content/carousel-ava.png" alt="avatar" />
                 </div>
                 <div className="carousel-title">
-                  <img src="images/content/carousel-quote.svg" alt="" />
+                  <img src="images/content/carousel-quote.svg" alt="avatar" />
                   <p>
                     Able an hope of body. Any nay shyness article matters own
                     removal nothing his forming. Gay own additions education
@@ -63,10 +63,10 @@ function Testimonials() {
             <div className="carousel-item">
               <div className="carousel-1">
                 <div className="carousel-img">
-                  <img src="images/content/carousel-ava.png" alt="" />
+                  <img src="images/content/carousel-ava.png" alt="avatar" />
                 </div>
                 <div className="carousel-title">
-                  <img src="images/content/carousel-quote.svg" alt="" />
+                  <img src="images/content/carousel-quote.svg" alt="avatar" />
                   <p>
                     Able an hope of body. Any nay shyness article matters own
                     removal nothing his forming. Gay own additions education
@@ -83,10 +83,10 @@ function Testimonials() {
             <div className="carousel-item">
               <div className="carousel-1">
                 <div className="carousel-img">
-                  <img src="images/content/carousel-ava.png" alt="" />
+                  <img src="images/content/carousel-ava.png" alt="avatar" />
                 </div>
                 <div className="carousel-title">
-                  <img src="images/content/carousel-quote.svg" alt="" />
+                  <img src="images/content/carousel-quote.svg" alt="avatar" />
                   <p>
                     Able an hope of body. Any nay shyness article matters own
                     removal nothing his forming. Gay own additions education

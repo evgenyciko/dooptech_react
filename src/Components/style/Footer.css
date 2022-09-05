@@ -1,0 +1,290 @@
+.footer {
+  margin-top: 180px;
+  background-color: #191919;
+}
+
+.footer-wraper {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-wraper {
+  padding-top: 60px;
+}
+
+.footer-content {
+  width: 307px;
+}
+
+.footer-content .logo-image img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-content .title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.sosmed-icon svg {
+  margin-right: 20px;
+  width: 18px;
+  height: 18px;
+}
+
+.footer-right-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.footer-right-wrapper h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer-right-wrapper .lines {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.footer-right-wrapper .lines .line-1::after {
+  content: "";
+  display: block;
+  width: 34px;
+  border: 2px solid #009999;
+}
+
+.footer-right-wrapper .lines .line-2::after {
+  content: "";
+  display: block;
+  width: 34px;
+  border: 2px solid #fff;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 50px;
+}
+
+.footer-link a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 38px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-link .lines {
+  margin-bottom: 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+}
+
+.hp {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-contact {
+  width: 286px;
+  /* margin-left: 20px; */
+  margin-top: 50px;
+}
+
+.footer-contact p {
+  margin-left: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer-contact .lines {
+  margin-bottom: 20px;
+}
+
+.footer-contact svg {
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.contant-wraper {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-subscribe {
+  width: 256px;
+  margin-top: 50px;
+}
+
+.footer-subscribe p {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+/* button subscribe */
+
+.content {
+  width: 260px;
+  height: 50px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.subscription {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.subscription .add-email {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}
+
+.subscription .submit-email {
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  height: calc(100% - 2px);
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  margin: 1px;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #4abebb;
+  color: #ffffff;
+  transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email {
+  width: calc(100% - 2px);
+  background: #c0e02e;
+}
+
+.subscription .submit-email .before-submit,
+.subscription .submit-email .after-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email .before-submit,
+.subscription:not(.done) .submit-email .after-submit {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.subscription .submit-email .after-submit {
+  transition-delay: 0.35s;
+}
+
+.subscription:not(.done) .submit-email .before-submit,
+.subscription.done .submit-email .after-submit {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* responsive design */
+
+/* tablet ver */
+
+@media (max-width: 991.98px) {
+  .footer-wraper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+
+  .footer-right-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+}
+
+/* mobile ver */
+
+@media (max-width: 767.98px) {
+  .footer-content {
+    width: 100%;
+    display: none;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-top: 50px;
+    display: none;
+  }
+
+  .footer-contact {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .footer-right-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 20px;
+  }
+}
